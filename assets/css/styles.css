@@ -31,13 +31,29 @@ button { border: none; border-radius: 6px; padding: 10px 20px; }
 #nav .nav-link.active { border-bottom: 3px solid var(--green); }
 #nav .nav-link { border-bottom: 3px solid transparent; transition: all ease-in-out .3s; width: fit-content; }
 #nav .nav-link:hover { border-bottom: 3px solid var(--green); }
-#nav .navbar-toggler { border: none; font-size: 26px; filter: invert(1);  }
+#nav .navbar-toggler { border: none; box-shadow: none; font-size: 26px; filter: invert(1); }
+
 
 /* MAIN */
-#main { padding: 365px 0px 370px 0px; }
+#main { padding: 375px 0px 360px 0px; }
 #main h1 { font-size: 52px; color: var(--white); font-weight: 400; }
 #main p { color: var(--white); font-size: 20px; }
 #main button { background-color: var(--green); color: var(--white); transition: all ease-in-out .4s; }
 #main button:hover { background-color: var(--white); color: var(--green); }
 
+/* MEDIA QUERY */
+@media only screen and (max-device-width: 1400px), screen and (max-width: 1400px) {
 
+}
+
+@media only screen and (max-device-width: 993px), screen and (max-width: 993px) {
+
+}
+
+@media only screen and (max-device-width: 630px), screen and (max-width: 630px) {
+    #nav a { margin-bottom: 5px; }
+    #header { object-fit: cover; }
+    #main { padding: 375px 0px 295px 0px; }
+    #main h1 { font-size: 36px; }
+    #main p { font-size: 18px; }
+}
