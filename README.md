@@ -22,10 +22,10 @@ O TraderZone é um site simples projetado para demonstrar habilidades básicas e
 
 **Clonar o Repositório:**
 1. ```bash
-   git clone https://github.com/TioAlisson/HDB-Hotel
+   git clone https://github.com/TioAlisson/TraderZone
 
 ## Link do projeto
-1. Link do projeto: 
+1. Link do projeto: https://tioalisson.github.io/TraderZone/
 
 ## Contato
 
