@@ -44,6 +44,8 @@ button { border: 1px solid transparent; border-radius: 6px; padding: 10px 20px; 
 /* SECTION MVV */
 #section-mvv { padding-inline: 30px; }
 #section-mvv i { background-color: var(--green); border: 1px solid var(--green); border-radius: 50%; color: var(--white); padding: 10px; font-size: 30px; }
+#section-mvv .links { background-color: var(--green); border: 1px solid var(--green); border-radius: 50%; width: 60px; height: 60px; display: flex; align-items: center; justify-content: center; }
+#section-mvv svg { color: var(--white); width: 40px; height: 30px; }
 
 /* SECTION SOLUTIONS */
 #solutions .bg-green { color: var(--white); font-weight: 100; background-color: var(--green); display: flex; flex-direction: column; justify-content: center; align-items: flex-start;  }
@@ -73,5 +75,5 @@ button { border: 1px solid transparent; border-radius: 6px; padding: 10px 20px; 
 
 @media only screen and (max-device-width: 400px), screen and (max-width: 400px) {
     #solutions h2 { font-size: 20px; }
-    #solutions span { text-align: center; } 
+    #solutions span { text-align: center; padding-inline: 10px; } 
 }
